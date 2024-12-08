@@ -16,7 +16,7 @@ export const About = () => {
                 <h1 className='text-4xl border-b-4 border-primary mb-5 w-[170px] font-bold'>About me</h1>
                 <p className='pb-5'>{config.line1}</p>
                 <p className='pb-5'>{config.line2}</p>
-                <p>{config.line3}</p>
+                <p className='pb-5'>{config.line3}</p>
             </div>
         </div>
     </section>
